@@ -97,35 +97,6 @@ button:hover {
   opacity: 0;
 }
 
-select{
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    outline: none;
-    border:none;
-}
-
-.select {
-    margin:1rem;
-    width: 10rem;
-    cursor: pointer;
-}
-
-select {
-    color: grey;
-    width: 10rem;
-    cursor: pointer;
-}
-
-.select::after {
-    content: "\25BC";
-    position:absolute;
-    top:0;
-    right:0;
-    padding: 1rem;
-    pointer-events: none;
-}
-
 .container-2{
     display: flex;
     justify-content: center;
